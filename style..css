@@ -76,8 +76,8 @@ h1{
 
 .col-2 img{
     display: flex;
-    max-width: 100%;
-    padding: 50px 0;
+    max-width: 80%;
+    padding: 50px 50px;
     position: right;
 }
 
@@ -95,12 +95,13 @@ h1{
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
-    margin-top: 30px;
+    margin: 30px 0;
+    border-radius: 30px;
     padding: 10px 20px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
-    border-radius: 2px;
+    /* border-radius: 2px; */  
     transition: 0.5s ease;
 }
 
